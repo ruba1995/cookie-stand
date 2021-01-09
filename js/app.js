@@ -133,3 +133,23 @@ hourlyCustomersDubai.renderSalesTable();
 hourlyCustomersParis.renderSalesTable();
 hourlyCustomersLima.renderSalesTable();
 renderFootSales();
+
+
+
+var salesForm = document.getElementById('newStore');
+salesForm.addEventListener('submit', function (event){
+  
+  var last=document.getElementById('last');
+  last.remove();
+  event.preventDefault();
+  var location = event.target.location.value;
+  var maxCust = event.target.maxCust.value;
+  var minCust = event.target.minCust.value;
+  var aavgCust = event.target.aavgCust.value;
+
+  var newLocation = new Store(location,maxCust,minCust,aavgCust);
+  newLocation.cookiesArray();
+  newLocation.renderSalesTable();
+  renderFootSales();
+
+});

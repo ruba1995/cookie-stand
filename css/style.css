@@ -1,5 +1,6 @@
 body{
     background-color: lightblue;
+    margin: auto;
 }
 
 h1{
@@ -12,4 +13,10 @@ h1{
 div{
     text-align: center;
     
+}
+
+
+section{
+margin-bottom: 30px;
+
 }
