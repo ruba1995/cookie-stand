@@ -1,6 +1,6 @@
 body{
     background-color: lightblue;
-    margin: auto;
+    
 }
 
 h1{
@@ -19,4 +19,57 @@ div{
 section{
 margin-bottom: 30px;
 
+}
+#firstimage {
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 60%;
+  
+}
+
+ nav  ul :hover {
+    display: inline-block;
+    padding-bottom: 15px;
+    color:red;
+    background-color: white;
+}
+
+
+li {
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: auto ;
+    margin-bottom: 60px;
+}
+
+ h2 {
+    color:darkblue;
+    margin-left: 10px;
+    margin-top :60px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+header p{
+    background-color: white;
+    margin-left: 40px;
+    margin-top:35px;
+}
+
+
+header span{
+    display: flex;
+    padding: 5px;
+   margin-left: auto;
+   margin-right: auto;
+}
+footer ul li{
+    margin-bottom: 30px;
+
+    margin-left: 40px;
+    background-color: white;
+}
+footer{
+    background-color: white;
 }
